@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>© Muniscribe {new Date().getFullYear()}</footer>
+        <footer>© Muniscribe, {new Date().getFullYear()}</footer>
       </div>
     </>
   )
