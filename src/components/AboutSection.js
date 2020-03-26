@@ -4,11 +4,9 @@ import { ScrollDownIndicator } from "react-landing-page"
 import styled from "styled-components"
 
 const StyledHero = styled.div`
-  background-image: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
-    url("https://i.pinimg.com/originals/29/8f/3e/298f3eacdb07bf9f2223645236ef47e1.gif");
   object-fit: cover;
   min-height: 100vh;
-  background-color: #000;
+  background-color: #ff7272;
 
   @media screen and (max-width: 768) {
     background-attachment: scroll;
@@ -30,23 +28,23 @@ const StyledIndicator = styled(ScrollDownIndicator)`
   cursor: pointer;
 `
 
-const HeroSection = ({ setNavbarOpen }) => {
+const AboutSection = ({ setNavbarOpen }) => {
   const scrollDown = () => {
     window.scroll({
-      top: window.Height,
+      top: window.innerHeight,
       left: 0,
       behavior: "smooth",
     })
   }
   return (
     <StyledHero>
-      <Heading fontSize={[5, 6, 7, 8]}>Muniscribe</Heading>
-      <Text fontSize={[2, 3, 4, 5]} textAlign={"center"}>
-        Municipal transcription services
-      </Text>
+      <Heading fontSize={[5, 6, 7, 8]}>
+        Relax and let us do the hard work
+      </Heading>
+      <Text fontSize={[2, 3, 4, 5]} textAlign={"center"}></Text>
       <StyledIndicator color="white" onClick={scrollDown} />
     </StyledHero>
   )
 }
 
-export default HeroSection
+export default AboutSection
