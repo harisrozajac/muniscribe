@@ -1,21 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
+import Navbar from "../components/Navbar"
+import "../pages/App.css"
+import HeroSection from "../components/HeroSection"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+class Index extends React.Component {
+  render() {
+    return (
+      <>
+        <Navbar />
+        <HeroSection />
+        <div class="footer">
+          <p>
+            © {new Date().getFullYear()} Muniscribe, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          </p>
+        </div>
+      </>
+    )
+  }
+}
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Municipal transcription services</h1>
-    <p>We offer exceptional municipal transcription services</p>
-    <p>We are building something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/contact/">Contact</Link>
-  </Layout>
-)
-
-export default IndexPage
+export default Index
