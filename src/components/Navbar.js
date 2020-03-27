@@ -12,10 +12,10 @@ const Navbar = ({ img, title }) => {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="../About">About</a>
+          <a href="../About/">About</a>
         </li>
         <li>
-          <a href="../ContactPage">Contact</a>{" "}
+          <a href="../ContactPage/">Contact</a>{" "}
         </li>
       </ul>
     </nav>
