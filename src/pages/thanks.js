@@ -5,7 +5,7 @@ export default class Thanks extends Component {
     return (
       <div>
         <p>
-          Thank you for {form - name} your submission. We will contact you soon.
+          Thank you for your submission. We will contact you soon.
         </p>
       </div>
     )
