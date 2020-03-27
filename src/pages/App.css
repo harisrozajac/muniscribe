@@ -55,7 +55,7 @@ a:hover {
 
 ul {
   list-style: none;
-  margin-right: 3em;
+  margin-right: 0px;
 }
 
 /* Utilities */
@@ -136,7 +136,7 @@ ul {
 
 /* List */
 .list {
-  margin: 0.5rem 0;
+  margin: 0px;
 }
 
 .list li {
@@ -374,6 +374,7 @@ table th {
   width: 100%;
   opacity: 0.9;
   margin-bottom: 0rem;
+  overflow: hidden;
 }
 
 .navbar ul {
@@ -422,13 +423,16 @@ table th {
 
   /* Navbar */
   .navbar {
-    display: block;
+    display: inline-block;
     text-align: center;
+    align-self: center;
+    margin-left: 0px;
   }
 
   .navbar ul {
     text-align: center;
     justify-content: center;
+    align-self: center;
   }
 }
 

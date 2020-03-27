@@ -2,6 +2,7 @@ import React from "react"
 import { Heading, Text } from "rebass"
 import { ScrollDownIndicator } from "react-landing-page"
 import styled from "styled-components"
+import Navbar from "./Navbar"
 
 const StyledHero = styled.div`
   background-image: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
@@ -33,7 +34,7 @@ const StyledIndicator = styled(ScrollDownIndicator)`
 const HeroSection = ({ setNavbarOpen }) => {
   const scrollDown = () => {
     window.scroll({
-      top: window.Height,
+      top: window.Height + <Navbar />,
       left: 0,
       behavior: "smooth",
     })
