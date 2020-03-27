@@ -38,7 +38,7 @@ const AboutSection = ({ setNavbarOpen }) => {
   }
   return (
     <StyledHero>
-      <Heading fontSize={[5, 6, 7, 8]}>
+      <Heading fontSize={[5, 6, 7, 8]} textAlign={"center"}>
         Relax and let us do the hard work
       </Heading>
       <Text fontSize={[2, 3, 4, 5]} textAlign={"center"}></Text>
