@@ -9,7 +9,7 @@ const Navbar = ({ img, title }) => {
       <ul>
         <li>
           {" "}
-          <a href="../index">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="../About">About</a>
