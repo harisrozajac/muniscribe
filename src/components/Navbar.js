@@ -15,7 +15,7 @@ const Navbar = ({ img, title }) => {
           <a href="../About">About</a>
         </li>
         <li>
-          <a href="../Contact">Contact</a>{" "}
+          <a href="../ContactPage">Contact</a>{" "}
         </li>
       </ul>
     </nav>
