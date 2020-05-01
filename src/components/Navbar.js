@@ -4,7 +4,7 @@ const Navbar = ({ img, title }) => {
   return (
     <nav className="navbar bg-primary">
       <h1>
-        <i className={img} /> {title}
+        <a href="/">Muniscribe</a>
       </h1>
       <ul>
         <li>
@@ -20,11 +20,6 @@ const Navbar = ({ img, title }) => {
       </ul>
     </nav>
   )
-}
-
-Navbar.defaultProps = {
-  title: "Muniscribe",
-  img: "./images/muniscribe-favicon.png",
 }
 
 export default Navbar

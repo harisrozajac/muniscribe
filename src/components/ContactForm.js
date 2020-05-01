@@ -1,4 +1,5 @@
 import React from "react"
+import "../pages/App.css"
 import { navigate } from "gatsby-link"
 import Layout from "./Layout"
 
@@ -39,7 +40,7 @@ export default function ContactForm() {
 
   return (
     <Layout>
-      <h1>
+      <h1 className="textCenter">
         Upload the template for your meetings and we will follow that format in
         our transcription
       </h1>

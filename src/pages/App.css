@@ -442,3 +442,7 @@ table th {
   margin-right: auto;
   width: 50%;
 }
+
+.textCenter {
+  text-align: center;
+}
