@@ -10,6 +10,7 @@ const Index = () => {
     align-self: center;
     align-content: center;
     text-align: center;
+    color: white;
     padding-top: 1em;
     padding-bottom: 2em;
     background-color: #ff7260;
@@ -33,11 +34,7 @@ const Index = () => {
         <h2>66 North 400 East Springville, Utah 84663</h2>
       </ContactContainer>
       <div class="footer">
-        <p>
-          © {new Date().getFullYear()} Muniscribe, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </p>
+        <p>© {new Date().getFullYear()} Muniscribe</p>
       </div>
     </>
   )
