@@ -2,11 +2,16 @@ import React from "react"
 import { Heading, Text } from "rebass"
 import { ScrollDownIndicator } from "react-landing-page"
 import styled from "styled-components"
+import Navbar from "./Navbar"
 
 const StyledHero = styled.div`
   object-fit: cover;
   min-height: 100vh;
   background-color: #ff7272;
+
+  span {
+    color: blue;
+  }
 
   @media screen and (max-width: 768) {
     background-attachment: scroll;
@@ -31,18 +36,28 @@ const StyledIndicator = styled(ScrollDownIndicator)`
 const AboutSection = ({ setNavbarOpen }) => {
   const scrollDown = () => {
     window.scroll({
-      top: window.innerHeight,
+      top: 850,
       left: 0,
       behavior: "smooth",
     })
   }
   return (
     <StyledHero>
-      <Heading fontSize={[5, 6, 7, 8]} textAlign={"center"}>
-        Relax and let us do the hard work
+      <Heading
+        fontSize={[3, 4, 5, 6]}
+        textAlign={"center"}
+        marginLeft={"1.5em"}
+        marginRight={"1.5em"}
+      >
+        Welcome to MuniScribe, located in the greater Salt Lake City Area, we
+        offer our services nation wide. We provide a quality transcription
+        service that focuses on professional meeting minutes and fixed
+        documents.We offer a{" "}
+        <span style={{ color: "blue" }}>personal approach</span> to getting your
+        busywork accomplished and are happy to tailor our service to meet your
+        needs.
       </Heading>
-      <Text fontSize={[2, 3, 4, 5]} textAlign={"center"}></Text>
-      <StyledIndicator color="white" onClick={scrollDown} />
+      <StyledIndicator onClick={scrollDown} />
     </StyledHero>
   )
 }

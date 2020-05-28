@@ -2,7 +2,6 @@ import React from "react"
 import { Heading, Text } from "rebass"
 import { ScrollDownIndicator } from "react-landing-page"
 import styled from "styled-components"
-import Navbar from "./Navbar"
 
 const StyledHero = styled.div`
   background-image: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
@@ -34,7 +33,7 @@ const StyledIndicator = styled(ScrollDownIndicator)`
 const HeroSection = ({ setNavbarOpen }) => {
   const scrollDown = () => {
     window.scroll({
-      top: window.Height + <Navbar />,
+      top: window.Height,
       left: 0,
       behavior: "smooth",
     })
@@ -45,7 +44,6 @@ const HeroSection = ({ setNavbarOpen }) => {
       <Text fontSize={[2, 3, 4, 5]} textAlign={"center"}>
         Municipal transcription services
       </Text>
-      <StyledIndicator color="white" onClick={scrollDown} />
     </StyledHero>
   )
 }
