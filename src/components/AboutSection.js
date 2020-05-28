@@ -1,8 +1,7 @@
 import React from "react"
-import { Heading, Text } from "rebass"
+import { Heading } from "rebass"
 import { ScrollDownIndicator } from "react-landing-page"
 import styled from "styled-components"
-import Navbar from "./Navbar"
 
 const StyledHero = styled.div`
   object-fit: cover;

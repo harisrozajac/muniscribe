@@ -1,6 +1,5 @@
 import React from "react"
 import { Heading, Text } from "rebass"
-import { ScrollDownIndicator } from "react-landing-page"
 import styled from "styled-components"
 import TypingMachine from "../images/typing-machine.gif"
 
@@ -27,18 +26,7 @@ const StyledHero = styled.div`
   color: #fff;
 `
 
-const StyledIndicator = styled(ScrollDownIndicator)`
-  cursor: pointer;
-`
-
-const HeroSection = ({ setNavbarOpen }) => {
-  const scrollDown = () => {
-    window.scroll({
-      top: window.Height,
-      left: 0,
-      behavior: "smooth",
-    })
-  }
+const HeroSection = () => {
   return (
     <StyledHero>
       <Heading fontSize={[5, 6, 7, 8]}>Muniscribe</Heading>

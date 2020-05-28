@@ -5,24 +5,21 @@ import HeroSection from "../components/HeroSection"
 import AboutSection from "../components/AboutSection"
 import styled from "styled-components"
 
-const ContactContainer = styled.div`
-  align-self: center;
-  align-content: center;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 2em;
-  background-color: #ff7260;
-
-  h1 {
-    font-size: 2em;
-  }
-
-  h2 {
-    font-size: 1em;
-  }
-`
-
 const Index = () => {
+  const ContactContainer = styled.div`
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    background-color: #ff7260;
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1em;
+    }
+  `
   return (
     <>
       <Navbar />
