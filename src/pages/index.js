@@ -34,7 +34,7 @@ const Index = () => {
         <h2>66 North 400 East Springville, Utah 84663</h2>
       </ContactContainer>
       <div class="footer">
-        <p>© {new Date().getFullYear()} Muniscribe</p>
+        <p>© {new Date().getFullYear()} Muniscribe | All Rights Reserved</p>
       </div>
     </>
   )
