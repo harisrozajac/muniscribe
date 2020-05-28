@@ -2,10 +2,11 @@ import React from "react"
 import { Heading, Text } from "rebass"
 import { ScrollDownIndicator } from "react-landing-page"
 import styled from "styled-components"
+import TypingMachine from "../images/typing-machine.gif"
 
 const StyledHero = styled.div`
   background-image: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
-    url("https://i.pinimg.com/originals/29/8f/3e/298f3eacdb07bf9f2223645236ef47e1.gif");
+    url(${TypingMachine});
   object-fit: cover;
   min-height: 100vh;
   background-color: #000;
