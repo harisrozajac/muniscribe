@@ -6,7 +6,7 @@ import styled from "styled-components"
 const StyledHero = styled.div`
   object-fit: cover;
   min-height: 100vh;
-  background-color: #ff7272;
+  background-image: linear-gradient(#ff7272, white);
 
   span {
     color: blue;
@@ -47,6 +47,7 @@ const AboutSection = ({ setNavbarOpen }) => {
         textAlign={"center"}
         marginLeft={"1.5em"}
         marginRight={"1.5em"}
+        color={"black"}
       >
         Welcome to MuniScribe, located in the greater Salt Lake City Area, we
         offer our services nation wide. We provide a quality transcription

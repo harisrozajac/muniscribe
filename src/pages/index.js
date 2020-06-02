@@ -11,16 +11,15 @@ const Index = () => {
     align-self: center;
     align-content: center;
     text-align: center;
-    color: white;
+    color: black;
     padding-top: 1em;
     padding-bottom: 2em;
-    background-color: #ff7260;
+    background-color: white;
     h1 {
       font-size: 2em;
     }
     h2 {
       font-size: 1em;
-      color: white;
     }
   `
   return (
@@ -29,6 +28,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <ContactContainer>
+        <h1>Contact Us Today!</h1>
         <h1>Info</h1>
         <h2>Phone: 435-632-6048</h2>
         <h2>Email: brim@muniscribe.com</h2>
