@@ -1,10 +1,12 @@
 import React, { Component } from "react"
 import "../pages/App.css"
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 import { Text } from "rebass"
 import styled from "styled-components"
 
 const Container = styled.div`
+  height: 100vh;
   margin-top: 2em;
   margin-right: 8em;
   margin-left: 8em;
@@ -47,6 +49,7 @@ export default class About extends Component {
             understands the importance of a quality and complete document.
           </Text>
         </Container>
+        <Footer />
       </>
     )
   }

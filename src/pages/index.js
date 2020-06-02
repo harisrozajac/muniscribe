@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import "../pages/App.css"
 import HeroSection from "../components/HeroSection"
 import AboutSection from "../components/AboutSection"
+import Footer from "../components/Footer"
 import styled from "styled-components"
 
 const Index = () => {
@@ -19,6 +20,7 @@ const Index = () => {
     }
     h2 {
       font-size: 1em;
+      color: white;
     }
   `
   return (
@@ -33,9 +35,7 @@ const Index = () => {
         <h1>Address</h1>
         <h2>66 North 400 East Springville, Utah 84663</h2>
       </ContactContainer>
-      <div class="footer">
-        <p>© {new Date().getFullYear()} Muniscribe | All Rights Reserved</p>
-      </div>
+      <Footer />
     </>
   )
 }

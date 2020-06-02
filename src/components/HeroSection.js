@@ -30,7 +30,7 @@ const HeroSection = () => {
   return (
     <StyledHero>
       <Heading fontSize={[5, 6, 7, 8]}>Muniscribe</Heading>
-      <Text fontSize={[2, 3, 4, 5]} textAlign={"center"}>
+      <Text fontSize={[2, 3, 4, 5]} textAlign={"center"} marginBottom={"4em"}>
         Municipal transcription services
       </Text>
     </StyledHero>
