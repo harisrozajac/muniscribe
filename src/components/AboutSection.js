@@ -6,7 +6,7 @@ import styled from "styled-components"
 const StyledHero = styled.div`
   object-fit: cover;
   min-height: 100vh;
-  background-image: linear-gradient(#ff7272, white);
+  background-image: #f5f0f2;
 
   span {
     color: blue;
@@ -26,6 +26,25 @@ const StyledHero = styled.div`
   align-items: center;
   justify-content: center;
   color: #fff;
+
+  h1 {
+    text-align: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    color: #000000;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 38px;
+    }
+
+    @media screen and (max-width: 832px) {
+      font-size: 32px;
+    }
+
+    @media screen and (max-width: 639px) {
+      font-size: 24px;
+    }
+  }
 `
 
 const StyledIndicator = styled(ScrollDownIndicator)`
@@ -42,21 +61,15 @@ const AboutSection = ({ setNavbarOpen }) => {
   }
   return (
     <StyledHero>
-      <Heading
-        fontSize={[3, 4, 5, 6]}
-        textAlign={"center"}
-        marginLeft={"1.5em"}
-        marginRight={"1.5em"}
-        color={"black"}
-      >
+      <h1>
         Welcome to MuniScribe, located in the greater Salt Lake City Area, we
-        offer our services nation wide. We provide a quality transcription
+        offer our services nation-wide. We provide a quality transcription
         service that focuses on professional meeting minutes and fixed
         documents.We offer a{" "}
         <span style={{ color: "blue" }}>personal approach</span> to getting your
         busywork accomplished and are happy to tailor our service to meet your
         needs.
-      </Heading>
+      </h1>
       <StyledIndicator onClick={scrollDown} />
     </StyledHero>
   )

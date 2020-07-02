@@ -1,24 +1,23 @@
 import React from "react"
 import styled from "styled-components"
 
-const FooterContainer = styled.footer`
-  position: relative;
+const FooterContainer = styled.div`
+  margin-top: 1em;
+  position: static;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: rgb(255, 255, 255);
   color: black;
   text-align: center;
-  height: 50%;
+  height: 2em;
 `
 
 const Footer = () => {
   return (
-    <div>
-      <FooterContainer>
-        <p>© {new Date().getFullYear()} Muniscribe | All Rights Reserved</p>
-      </FooterContainer>
-    </div>
+    <FooterContainer>
+      <p>© {new Date().getFullYear()} Muniscribe | All Rights Reserved</p>
+    </FooterContainer>
   )
 }
 

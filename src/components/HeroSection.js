@@ -8,11 +8,8 @@ const StyledHero = styled.div`
     url(${TypingMachine});
   object-fit: cover;
   min-height: 100vh;
+  width: 100%;
   background-color: #000;
-
-  @media screen and (max-width: 768) {
-    background-attachment: scroll;
-  }
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -24,15 +21,42 @@ const StyledHero = styled.div`
   align-items: center;
   justify-content: center;
   color: #fff;
+
+  @media screen and (max-width: 768) {
+    background-attachment: scroll;
+  }
+
+  h1 {
+    font-size: 72px;
+
+    @media screen and (max-width: 832px) {
+      font-size: 48px;
+    }
+
+    @media screen and (max-width: 639px) {
+      font-size: 32px;
+    }
+  }
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 4em;
+
+    @media screen and (max-width: 832px) {
+      font-size: 24px;
+    }
+
+    @media screen and (max-width: 639px) {
+      font-size: 16px;
+    }
+  }
 `
 
 const HeroSection = () => {
   return (
     <StyledHero>
-      <Heading fontSize={[5, 6, 7, 8]}>Muniscribe</Heading>
-      <Text fontSize={[2, 3, 4, 5]} textAlign={"center"} marginBottom={"4em"}>
-        Municipal transcription services
-      </Text>
+      <h1>Muniscribe</h1>
+      <h2>Municipal transcription services</h2>
     </StyledHero>
   )
 }

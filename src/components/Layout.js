@@ -1,11 +1,21 @@
 import React from "react"
 import Navbar from "./Navbar"
+import Footer from "./Footer"
+import GlobalStyle from "../styles/GlobalStyle"
+import styled from "styled-components"
 
-export default ({ children }) => (
+const Header = styled.div`
+  padding-top: 80px;
+`
+
+const Layout = ({ children }) => (
   <>
+    <GlobalStyle />
     <Navbar />
-    <div style={{ margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
-      {children}
-    </div>
+    <Header />
+    {children}
+    <Footer />
   </>
 )
+
+export default Layout

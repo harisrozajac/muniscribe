@@ -1,9 +1,8 @@
 import React from "react"
-import Navbar from "../components/Navbar"
-import "../pages/App.css"
 import HeroSection from "../components/HeroSection"
 import AboutSection from "../components/AboutSection"
-import Footer from "../components/Footer"
+import Services from "../components/Services"
+import Layout from "../components/Layout"
 import styled from "styled-components"
 
 const Index = () => {
@@ -24,18 +23,18 @@ const Index = () => {
   `
   return (
     <>
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <ContactContainer>
-        <h1>Contact Us Today!</h1>
-        <h1>Info</h1>
-        <h2>Phone: 435-632-6048</h2>
-        <h2>Email: brim@muniscribe.com</h2>
-        <h1>Address</h1>
-        <h2>66 North 400 East Springville, Utah 84663</h2>
-      </ContactContainer>
-      <Footer />
+      <Layout>
+        <HeroSection />
+        <AboutSection />
+        <ContactContainer>
+          <h1>Contact Us Today!</h1>
+          <h1>Info</h1>
+          <h2>Phone: 435-632-6048</h2>
+          <h2>Email: brim@muniscribe.com</h2>
+          <h1>Address</h1>
+          <h2>66 North 400 East Springville, Utah 84663</h2>
+        </ContactContainer>
+      </Layout>
     </>
   )
 }
