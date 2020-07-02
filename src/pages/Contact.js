@@ -48,7 +48,8 @@ const Button = styled.button`
   background-color: #79e2f7;
 `
 
-const GOOGLE_FORM_LINK = "https:/forms.gle/y1YjmAx1RZcmDv3z5"
+const GOOGLE_FORM_LINK =
+  "https://docs.google.com/forms/d/e/1FAIpQLSdIFKq_axlRJXYbNUF_zGEHyrL7tp3iBuP7YSLHOQ5HBx2vGA/viewform"
 
 export default class Contact extends Component {
   render() {
