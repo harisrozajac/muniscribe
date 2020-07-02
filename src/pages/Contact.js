@@ -57,7 +57,11 @@ export default class Contact extends Component {
         <Layout>
           <FormContainer>
             <h1>Send us your meeting templates</h1>
-            <a href={GOOGLE_FORM_LINK}>
+            <a
+              href={GOOGLE_FORM_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button>Click Here To Upload Your Meeting Templates</Button>
             </a>
           </FormContainer>
