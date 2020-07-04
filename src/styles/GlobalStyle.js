@@ -20,7 +20,6 @@ html {
     margin: 0px;
     padding: 0px;
     font-family: "Roboto", sans-serif;
-    overflow-x: hidden;
   }
 
 body {
@@ -29,8 +28,7 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
-}
+ 
 
 a {
   text-decoration: none;

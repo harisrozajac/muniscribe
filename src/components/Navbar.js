@@ -11,7 +11,6 @@ const NavbarContainer = styled.nav`
   z-index: 1;
   width: 100%;
   margin-bottom: 0rem;
-  overflow: hidden;
   background: #ff7272;
   height: 5em;
   font-size: 16px;
