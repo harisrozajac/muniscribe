@@ -2,6 +2,7 @@ import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import GlobalStyle from "../styles/GlobalStyle"
+import { Helmet } from "react-helmet"
 import styled from "styled-components"
 
 const Header = styled.div`
@@ -11,6 +12,12 @@ const Header = styled.div`
 const Layout = ({ children }) => (
   <>
     <GlobalStyle />
+    <Helmet>
+      <script
+        src="https://kit.fontawesome.com/dab51ab02e.js"
+        crossorigin="anonymous"
+      ></script>
+    </Helmet>
     <Navbar />
     <Header />
     {children}

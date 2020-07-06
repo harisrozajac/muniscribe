@@ -36,8 +36,8 @@ const FormContainer = styled.div`
 
 const Button = styled.button`
   display: inline-block;
-  padding: 0.3em 1.2em;
-  margin: 0 0.3em 0.3em 0;
+  padding: 0.8em 1.2em;
+  margin: 2em 0.3em 0.3em 0;
   border-radius: 2em;
   text-decoration: none;
   font-family: "Roboto", sans-serif;

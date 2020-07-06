@@ -65,8 +65,7 @@ const AboutSection = ({ setNavbarOpen }) => {
         Welcome to MuniScribe, located in the greater Salt Lake City Area, we
         offer our services nation-wide. We provide a quality transcription
         service that focuses on professional meeting minutes and fixed
-        documents.We offer a{" "}
-        <span style={{ color: "blue" }}>personal approach</span> to getting your
+        documents.We offer a <span>personal approach</span> to getting your
         busywork accomplished and are happy to tailor our service to meet your
         needs.
       </h1>

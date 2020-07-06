@@ -21,11 +21,23 @@ const Index = () => {
       font-size: 1em;
     }
   `
+
+  const LineBreak = styled.div`
+    border-top: 10px solid var(--primary-color);
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    opacity: 0.6;
+  `
+
   return (
     <>
       <Layout>
         <HeroSection />
         <AboutSection />
+        <LineBreak />
+        <Services />
+        <LineBreak />
         <ContactContainer>
           <h1>Contact Us Today!</h1>
           <h1>Info</h1>
