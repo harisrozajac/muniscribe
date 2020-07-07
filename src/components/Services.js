@@ -7,7 +7,15 @@ const Container = styled.div`
   margin-left: 8em;
   margin-bottom: 2em;
   font-weight: bold;
-  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 1200px) {
+    margin-top: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 14px;
+  }
 
   @media screen and (max-width: 768px) {
     margin-top: 2em;
@@ -29,8 +37,7 @@ const RowContainer = styled.div`
   flex-direction: row;
   margin-top: 1em;
   margin-left: 1em;
-  margin_right: 1em;
-  align-content: center;
+  margin-right: 1em;
 
   h1 {
     margin-left: 2em;
@@ -39,6 +46,10 @@ const RowContainer = styled.div`
   @media screen and (max-width: 768px) {
     flex-direction: column;
     text-align: center;
+
+    h1 {
+      margin-left: 0em;
+    }
   }
 `
 
