@@ -89,7 +89,7 @@ const Services = () => {
             {" "}
             <i class="fas fa-clock fa-3x"></i>
           </IconContainer>
-          <h1>We will transcribe your meetings within 5 business days</h1>
+          <h1>We will transcribe each meeting within 5 business days</h1>
         </RowContainer>
         <RowContainer>
           <IconContainer>

@@ -1,5 +1,4 @@
 import React from "react"
-import { Heading } from "rebass"
 import { ScrollDownIndicator } from "react-landing-page"
 import styled from "styled-components"
 

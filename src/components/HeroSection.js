@@ -1,5 +1,4 @@
 import React from "react"
-import { Heading, Text } from "rebass"
 import styled from "styled-components"
 import TypingMachine from "../images/typing-machine.gif"
 
