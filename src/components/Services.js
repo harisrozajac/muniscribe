@@ -79,21 +79,18 @@ const Services = () => {
       <Container>
         <RowContainer>
           <IconContainer>
-            {" "}
             <i class="fas fa-keyboard fa-3x"></i>
           </IconContainer>
           <h1>Every year, we process over 2000 hours of municipal meetings</h1>
         </RowContainer>
         <RowContainer>
           <IconContainer>
-            {" "}
             <i class="fas fa-clock fa-3x"></i>
           </IconContainer>
           <h1>We will transcribe each meeting within 5 business days</h1>
         </RowContainer>
         <RowContainer>
           <IconContainer>
-            {" "}
             <i class="fas fa-binoculars fa-3x"></i>
           </IconContainer>
           <h1>Our editors will proofread every meeting</h1>

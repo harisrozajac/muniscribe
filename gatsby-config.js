@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Muniscribe`,
     description: `Municipal transcription`,
-    author: `Haris Rozajac`,
+    author: `Morgan and Brooke Brim`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
