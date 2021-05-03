@@ -34,7 +34,16 @@ const Index = () => {
   return (
     <>
       <Layout>
-        <SEO title="Home" />
+        <SEO
+          title="Home"
+          keywords={[
+            "transcription services",
+            "municipal transcription",
+            "transcribe a meeting",
+            "affordable transcription",
+            "transcribe my city meeting minutes",
+          ]}
+        />
         <HeroSection />
         <AboutSection />
         <LineBreak />
