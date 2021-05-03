@@ -41,6 +41,7 @@ const RowContainer = styled.div`
 
   h1 {
     margin-left: 2em;
+    font-size: 30px;
   }
 
   @media screen and (max-width: 768px) {
@@ -87,7 +88,7 @@ const Services = () => {
           <IconContainer>
             <i class="fas fa-clock fa-3x"></i>
           </IconContainer>
-          <h1>We will transcribe each meeting within 5 business days</h1>
+          <h1>We will transcribe each meeting within 5-10 business days</h1>
         </RowContainer>
         <RowContainer>
           <IconContainer>

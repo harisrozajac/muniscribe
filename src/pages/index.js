@@ -4,7 +4,7 @@ import AboutSection from "../components/AboutSection"
 import Services from "../components/Services"
 import Layout from "../components/Layout"
 import styled from "styled-components"
-import SEO from "../components/SEO"
+import SEO from "../components/seo"
 
 const Index = () => {
   const ContactContainer = styled.div`

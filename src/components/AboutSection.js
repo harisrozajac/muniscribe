@@ -31,17 +31,22 @@ const StyledHero = styled.div`
     margin-left: 1.5em;
     margin-right: 1.5em;
     color: #000000;
+    font-size: 32px;
+    width: 900px;
 
     @media screen and (max-width: 1024px) {
-      font-size: 38px;
+      font-size: 28px;
+      width: 700px;
     }
 
     @media screen and (max-width: 832px) {
-      font-size: 32px;
+      font-size: 26px;
+      width: 500px;
     }
 
     @media screen and (max-width: 639px) {
-      font-size: 24px;
+      font-size: 18px;
+      width: 300px;
     }
   }
 `

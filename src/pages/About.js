@@ -1,5 +1,6 @@
 import React from "react"
 import { Text } from "rebass"
+import SEO from "../components/seo"
 import styled from "styled-components"
 import morgan from "../images/morgan.jpg"
 import brooke from "../images/brooke.jpg"
@@ -53,6 +54,7 @@ const About = () => {
   return (
     <>
       <Layout>
+        <SEO title="About" />
         <Container>
           <Text>
             At MuniScribe, we work with you to bring your minutes to date, stay
